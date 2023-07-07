@@ -22,7 +22,7 @@ h1 {
 
 .start-menu {
     display: grid;
-    grid-template-columns: 14rem 20rem;
+    grid-template-columns: 20rem 20rem;
     align-content: center;
 }
 
