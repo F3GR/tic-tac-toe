@@ -8,7 +8,11 @@ The project was created using applications:
 
 
 The project was created using external media files:
-    1. ./1550492131.svg:
+    1. ./originals/1550492131.svg:
 "Monochrome Tic-Tac-Toe" by OpenClipart - https://freesvg.org/by/OpenClipart; 
 source file - https://freesvg.org/1550492131;
 license - https://freesvg.org/1550492131
+    2. ./originals/Carter_One.zip:
+"Carter One" by Vernon Adams - http://sansoxygen.com/; 
+source file - https://fonts.google.com/specimen/Carter+One?category=Display;
+license - https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL

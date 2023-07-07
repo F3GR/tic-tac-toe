@@ -35,7 +35,6 @@ footer, header, hgroup, menu, nav, section {
 }
 
 button, textarea, select, input, li {
-    width: 150px;
     font: inherit;
     font-size: 1.6rem;
 }
@@ -73,11 +72,7 @@ h1, h2, h3, h4, h5, h6, nav, ul, ol, table, form {
     margin-top: 4rem;
 }
 
-p {
-    margin: 2rem 0;
-}
-
-article, p {
+article {
     max-width: 50rem;
 }
 
@@ -140,7 +135,7 @@ input[type="checkbox"]:disabled {
   color: gray;
 }
 
-button,
+
 label,
 input,
 select,
