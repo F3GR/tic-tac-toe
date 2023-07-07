@@ -25,7 +25,6 @@ selectedMenuOptions.forEach((button) => {
 
         players = newPlayers(choice);
 
-
         if (players.player1.marker === 'X') {
             player1turn = true;
         } else {
@@ -51,7 +50,6 @@ selectedMenuOptions.forEach((button) => {
 
                         let foundWinner = findWinner(players.player1.moves, newBoard);
                         let draw = checkIfDraw(selectedGameCells, foundWinner);
-
 
                         if (foundWinner !== false) {
                             printWinner(getPlayer(players, foundWinner), draw);
@@ -134,7 +132,6 @@ function findWinner(playerMoves) {
     return false;
 }
 
-
 function checkIfDraw(selectedCells, foundWinner) {
     for (const cell of selectedCells) {
         if (cell.textContent === "") {
@@ -150,7 +147,7 @@ function checkIfDraw(selectedCells, foundWinner) {
 function printWinner(player, gameIsDraw) {
     if (gameIsDraw) {
         endMessage.textContent = `Game is a tie! Select X or O again to start a new game.`
-    } else if (player !== null) {
+    } else {
         endMessage.textContent = `${player.marker} wins (${player.name})! Select X or O again to start a new game.`
     }
 }
@@ -172,5 +169,4 @@ function getPlayer(players, foundWinner) {
             return players.player2;
         }
     }
-    return null;
 }
